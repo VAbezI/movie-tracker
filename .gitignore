@@ -1,4 +1,4 @@
-# Zavisnosti (ovaj folder sadrzi sve instalirane biblioteke i zauzima stotine megabajta)
+
 node_modules/
 
 # Logovi
@@ -6,20 +6,20 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Testovi i pokrivenost koda
+
 coverage/
 .nyc_output/
 
-# Environment fajlovi (lozinke, kljucevi - NIKAD ne sme na GitHub)
+
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Fajlovi operativnog sistema
+
 .DS_Store
 Thumbs.db
 
-# VS Code podesavanja (opciono - zavisi da li zelis da delis workspace settings)
+
 .vscode/
