@@ -30,7 +30,7 @@ jobs:
         run: docker build -t movie-tracker:dev-${{ github.sha }} .
 
   integration-test:
-    if: github.ref == 'refs/heads/test'
+    if: github.ref == 'refs/heads/test' || github.base_ref == 'test'
     runs-on: ubuntu-latest
 
     steps:
