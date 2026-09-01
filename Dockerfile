@@ -1,4 +1,4 @@
-# ---------- STAGE 1: builder ----------
+
 FROM node:18-alpine AS builder
 
 WORKDIR /app
@@ -9,7 +9,7 @@ RUN npm ci --omit=dev
 
 COPY src ./src
 
-# ---------- STAGE 2: runtime ----------
+
 FROM node:18-alpine
 
 WORKDIR /app
