@@ -2,7 +2,7 @@
 
 Jednostavan Node.js/Express API za evidenciju filmova (dodavanje, pregled, oznacavanje kao odgledano, brisanje). Projekat demonstrira CI/CD pipeline sa Docker optimizacijom i automatizacijom preko GitHub Actions.
 
-## Pokretanje
+## Pokretanje...
 
 ```bash
 npm install
