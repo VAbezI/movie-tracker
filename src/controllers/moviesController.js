@@ -2,7 +2,7 @@ const movies = require("../data/movies");
 const { v4: uuidv4 } = require("uuid");
 
 exports.getAllMovies = (req, res) => {
-    res.json(nesto);
+    res.json(movies);
 };
 
 exports.addMovie = (req, res) => {
