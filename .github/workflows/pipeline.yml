@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout koda
+      - name: Checkout koda  #preuzima kod
         uses: actions/checkout@v4
 
       - name: Prijava na Docker Hub
