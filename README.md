@@ -2,7 +2,7 @@
 
 Jednostavan Node.js/Express API za evidenciju filmova (dodavanje, pregled, oznacavanje kao odgledano, brisanje). Projekat demonstrira CI/CD pipeline sa Docker optimizacijom i automatizacijom preko GitHub Actions.
 
-## Pokretanje
+## Pokretanje....
 
 ```bash
 npm install
@@ -35,3 +35,7 @@ npm run test:integration
 ## Docker Hub
 
 [vabezi/movie-tracker](https://hub.docker.com/r/vabezi/movie-tracker)
+
+
+<!-- Test PR ka test grani -->
+<!-- Test PR ka test grani2 -->

@@ -2,7 +2,7 @@ const express = require("express");
 const movieRoutes = require("./routes/movies");
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); //ovde
 
 app.get("/", (req, res) => {
     res.json({ message: "Movie Tracker API is running!" });
